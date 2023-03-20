@@ -94,7 +94,9 @@ print(Z)
 # https://www.cnblogs.com/lucas-zhao/p/11792365.html
 print(np.unravel_index(100, (6, 7, 8)))
 
-
+# 21. 用tile函数去创建一个 8x8的棋盘样式矩阵
+Z = np.tile([[0, 1], [1, 0]], (4, 4))
+print(Z)
 
 
 
